@@ -37,3 +37,6 @@ This is a front-end website template. The download and Discord URLs are placehol
 ## Client download
 
 Upload `Anubis Beta 0.9.9.1.jar` to `downloads/Anubis Beta 0.9.9.1.jar` on your website host. The download button points to that path. The JAR itself is not included in this website ZIP.
+
+
+Favicon: `favicon.svg` and `favicon.ico` are included and linked in `index.html`. The icon uses the site’s existing gold Anubis mark. An Apple touch icon is also included.
