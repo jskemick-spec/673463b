@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#09090d">
+  <meta name="description" content="Anubis Client — sharpen your Minecraft experience.">
+  <title>Anubis Client — Own the Night</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="ambient ambient-one"></div><div class="ambient ambient-two"></div>
+  <header class="site-header">
+    <a class="brand" href="#home" aria-label="Anubis Client home">
+      <img src="assets/images/logo.svg" alt="" class="brand-mark">
+      <span>ANUBIS<span class="brand-muted"> CLIENT</span></span>
+    </a>
+    <button class="menu-toggle" aria-label="Toggle navigation" aria-expanded="false">☰</button>
+    <nav class="nav-links" id="nav-links">
+      <a href="#features">Features</a><a href="#showcase">Showcase</a><a href="#faq">FAQ</a>
+      <a class="nav-cta" href="#download">Get the client <span>↗</span></a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section-wrap" id="home">
+      <div class="hero-copy">
+        <div class="eyebrow"><span class="status-dot"></span> BUILT FOR YOUR NEXT SESSION</div>
+        <h1>The most<br><span class="gradient-text">powerful client.</span></h1>
+        <p class="hero-lede">80+ modules. Undetected. Built for DonutSMP.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#download">Download Anubis <span>↓</span></a>
+          <a class="button button-ghost" href="#showcase"><span class="play-icon">▶</span> See the showcase</a>
+        </div>
+        <div class="hero-meta"><span><i></i> Lightweight design</span><span><i></i> Made for Minecraft</span></div>
+      </div>
+      <div class="hero-visual">
+        <div class="visual-orbit orbit-a"></div><div class="visual-orbit orbit-b"></div>
+        <div class="hero-image-frame">
+          <img id="hero-image" src="assets/images/hero-showcase.png" alt="Anubis Client module interface screenshot">
+          <div class="image-overlay"></div>
+          <div class="image-label"><span class="label-kicker">ANUBIS CLIENT</span><strong>ENTER THE ARENA</strong></div>
+          <div class="floating-chip"><span class="chip-icon">✦</span><span><b>YOUR GAME.</b><small>YOUR RULES.</small></span></div>
+        </div>
+        <div class="hero-number">01 <span>/ EXPERIENCE</span></div>
+      </div>
+    </section>
+
+    <section class="ticker" aria-label="Anubis Client highlights"><div class="ticker-track">
+      <span>BUILT TO STAND OUT</span><b>✳</b><span>MADE FOR THE GRIND</span><b>✳</b><span>ANUBIS CLIENT</span><b>✳</b><span>BUILT TO STAND OUT</span><b>✳</b><span>MADE FOR THE GRIND</span><b>✳</b>
+    </div></section>
+
+    <section class="section-wrap section-block" id="features">
+      <div class="section-heading"><div><div class="eyebrow">THE DIFFERENCE</div><h2>More than a<br><span class="gradient-text">new look.</span></h2></div>
+        <p>Designed to feel intentional from the first launch. Keep the setup simple and make every session your own.</p></div>
+      <div class="feature-grid">
+        <article class="feature-card"><div class="feature-icon">◈</div><span class="card-index">01 / DESIGN</span><h3>Clean by nature</h3><p>A considered interface with a dark, focused aesthetic that keeps the experience feeling polished.</p><span class="card-line"></span></article>
+        <article class="feature-card"><div class="feature-icon">⌁</div><span class="card-index">02 / CONTROL</span><h3>Your setup, your way</h3><p>Make the experience yours. Add your own screenshots, links, and community details to this site.</p><span class="card-line"></span></article>
+        <article class="feature-card"><div class="feature-icon">✧</div><span class="card-index">03 / COMMUNITY</span><h3>Built together</h3><p>Bring your players together with one clear place to find updates, downloads, and your community.</p><span class="card-line"></span></article>
+      </div>
+    </section>
+
+    <section class="showcase-section" id="showcase">
+      <div class="section-wrap section-block">
+        <div class="section-heading"><div><div class="eyebrow">TAKE A CLOSER LOOK</div><h2>Made to be<br><span class="gradient-text">seen.</span></h2></div><p>Swap these preview images for your real in-game screenshots whenever you want.</p></div>
+        <div class="showcase-grid">
+          <figure class="showcase-card showcase-large"><img src="assets/images/screenshot-1.svg" alt="Client screenshot preview"><figcaption><span>01</span><div><b>IN-GAME VIEW</b><small>YOUR SCREENSHOT GOES HERE</small></div><span class="arrow">↗</span></figcaption></figure>
+          <figure class="showcase-card"><img src="assets/images/screenshot-2.svg" alt="Client interface preview"><figcaption><span>02</span><div><b>THE DETAILS</b><small>YOUR SCREENSHOT GOES HERE</small></div><span class="arrow">↗</span></figcaption></figure>
+        </div>
+      </div>
+    </section>
+
+    <section class="download-section section-wrap" id="download">
+      <div class="download-panel">
+        <div class="download-glow"></div><div class="download-content">
+          <div class="eyebrow"><span class="status-dot"></span> READY WHEN YOU ARE</div>
+          <h2>Your next session<br>starts <span class="gradient-text">here.</span></h2>
+          <p>Get Anubis Client and jump back into the game. Add your real download link in <code>script.js</code> before publishing.</p>
+          <a class="button button-primary" id="download-button" href="#" target="_blank" rel="noopener">Download Anubis <span>↓</span></a>
+          <small class="download-note">Only download files from sources you trust.</small>
+        </div>
+        <div class="download-art"><img src="assets/images/logo.svg" alt="" aria-hidden="true"><span>ANUBIS</span><small>CLIENT / EST. YOUR ERA</small></div>
+      </div>
+    </section>
+
+    <section class="section-wrap section-block faq-section" id="faq">
+      <div class="section-heading"><div><div class="eyebrow">GOOD TO KNOW</div><h2>Quick <span class="gradient-text">answers.</span></h2></div><p>Useful details for visitors before they join the community or download.</p></div>
+      <div class="faq-list">
+        <details><summary>Where do I download Anubis Client? <span>+</span></summary><p>Use the download button above. Replace its placeholder URL with your official download link in <code>script.js</code>.</p></details>
+        <details><summary>How do I change the screenshots? <span>+</span></summary><p>Put your image files in <code>assets/images/</code> and update the image paths in <code>index.html</code>. See <code>README.md</code> for the exact filenames.</p></details>
+        <details><summary>Where can I get support? <span>+</span></summary><p>Join your community using the Discord link. Add your invite URL in <code>script.js</code>.</p></details>
+      </div>
+    </section>
+    <section class="community-strip section-wrap"><div><div class="eyebrow">STAY IN THE LOOP</div><h2>Meet us on <span class="gradient-text">Discord.</span></h2></div><a class="button button-ghost" id="discord-button" href="#" target="_blank" rel="noopener">Join the community <span>↗</span></a></section>
+  </main>
+
+  <footer class="site-footer section-wrap"><a class="brand" href="#home"><img src="assets/images/logo.svg" alt="" class="brand-mark"><span>ANUBIS<span class="brand-muted"> CLIENT</span></span></a><p>Own the night. Play your way.</p><span class="footer-copy">© <span id="year"></span> ANUBIS CLIENT</span></footer>
+  <script src="script.js"></script>
+</body>
+</html>
