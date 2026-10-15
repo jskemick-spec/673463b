@@ -21,7 +21,6 @@ Open `assets/images/` and replace the sample images with your own. Keep the same
 ## Change the download and Discord links
 Open `script.js` and edit the `SITE_SETTINGS` section at the top:
 
-- `downloadUrl` — your official client download or release page
 - `discordUrl` — your Discord invite
 
 The buttons intentionally show an alert until you replace the `#` placeholders.
@@ -34,3 +33,7 @@ The buttons intentionally show an alert until you replace the `#` placeholders.
 Upload the entire folder (not just `index.html`) to a static host such as GitHub Pages, Netlify, or Cloudflare Pages. Keep the `assets/` folder beside `index.html`.
 
 This is a front-end website template. The download and Discord URLs are placeholders; replace them with your real links before going live.
+
+## Client download
+
+Upload `Anubis Beta 0.9.9.1.jar` to `downloads/Anubis Beta 0.9.9.1.jar` on your website host. The download button points to that path. The JAR itself is not included in this website ZIP.
