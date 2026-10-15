@@ -4,7 +4,7 @@
 */
 const SITE_SETTINGS = {
   // Replace # with your real public download URL (for example, your release page).
-  downloadUrl: "#",
+  downloadUrl: "https://github.com/jskemick-spec/673463b/releases/download/tag2/Anubis.Beta.0.9.9.1.jar",
   // Replace # with your Discord invite URL.
   discordUrl: "https://discord.gg/anubis"
 };
